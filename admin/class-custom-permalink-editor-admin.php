@@ -80,7 +80,75 @@ class Custom_Permalink_Editor_Admin {
 					</div>
 				</div>
 			</div>';
-			echo  $content;
+
+			$allowed_html = $this->custom_permalink_allowed_tags();
+			echo wp_kses( $content, $allowed_html );
+	}
+
+	public function custom_permalink_allowed_tags(){
+		$allowed_tags = array(
+			'a' => array(
+				'class' => array(),
+				'href'  => array(),
+				'rel'   => array(),
+				'title' => array(),
+			),
+			
+			'div' => array(
+				'class' => array(),
+				'id' => array(),
+				'title' => array(),
+				'style' => array(),
+			),
+			'span' => array(
+				'id' => true,
+				'class' => true,
+				'type' => true,
+				'value' => true,
+				'style' => true,
+			),
+			'li' => array(),
+			'em' => array(),
+			'h1' => array(),
+			'h2' => array(),
+			'h3' => array(),
+			'h4' => array(),
+			'h5' => array(),
+			'h6' => array(),
+			'i' => array(),
+			'img' => array(
+				'alt'    => array(),
+				'class'  => array(),
+				'height' => array(),
+				'src'    => array(),
+				'width'  => array(),
+			),
+			'li' => array(
+				'class' => array(),
+			),
+			'ol' => array(
+				'class' => array(),
+			),
+			'p' => array(
+				'class' => array(),
+			),
+			'q' => array(
+				'cite' => array(),
+				'title' => array(),
+			),
+			'span' => array(
+				'class' => array(),
+				'title' => array(),
+				'style' => array(),
+			),
+			'strike' => array(),
+			'strong' => array(),
+			'ul' => array(
+				'class' => array(),
+			),
+		);
+		
+		return $allowed_tags;
 	}
 
 	public function post_permalinks_page() {

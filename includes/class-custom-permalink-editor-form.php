@@ -442,9 +442,7 @@ class Custom_Permalink_Editor_Form {
 
 		
 		$allowed_html = $this->custom_permalink_allowed_tags();
-		$output_content = wp_kses($output_content, $allowed_html);
-
-		echo $output_content;
+		echo wp_kses( $output_content, $allowed_html );
 	}
 
 	public function custom_permalink_allowed_tags(){
@@ -480,7 +478,6 @@ class Custom_Permalink_Editor_Form {
 			),
 			'dl' => array(),
 			'style' => array(),
-			'script' => array(),
 			'dt' => array(),
 			'em' => array(),
 			'h1' => array(),
@@ -673,7 +670,7 @@ class Custom_Permalink_Editor_Form {
 
 				$new_permalink = ltrim(
 				
-					stripcslashes( $_REQUEST['cp_editor'] ),
+					sanitize_title( $_REQUEST['cp_editor'] ),
 					'/'
 				);
 				if ( empty( $new_permalink ) || '' === $new_permalink ) {
