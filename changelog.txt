@@ -9,3 +9,9 @@ This file contains changelog.
 * Bugs
     * Bug Fixing
 
+= 1.0.2 - Nov 4, 2021 =
+* Bugs
+    * Bug Fixing
+
+
+

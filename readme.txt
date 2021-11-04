@@ -1,8 +1,8 @@
 === Custom Permalink Editor ===
 Contributors: Team KCG
-Tags: permalink, url, link, address, custom, redirect, custom post type, GDPR, GDPR Compliant
+Tags: custom permalinks,custom url,permalink,permalinks,url,url editor,address,custom,link,custom post type,custom post url,woocommerce permalink,slug
 Tested up to: 5.8
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -13,7 +13,7 @@ Set Custom Permalink Editor on a per-post, per-tag per-page, and per-category ba
 -  This plugin is Developed by Team KCG to change the URL of the post, page, and custom post.
 -  This plugin allows you to edit permalink on posts, pages, custom posts.
 -  This plugin Do not change the theme default permalink structure
--  You have to edit every post/page manually and edit the permalink.
+-  You have to edit every post/page manually and edit the permalink. 
 -  If you Uninstall this plugin. Your post will back to the default permalink.
 
 

@@ -3,9 +3,9 @@
  * Plugin Name: Custom Permalink Editor
  * Plugin URI: https://kingscrestglobal.com/
  * Description: Set Permalinks on a per-post and  per-page basis. This is very easy to use and this will not effect your rewrite url rules.
- * Version: 1.0.2
+ * Version: 1.0.3
  * Requires PHP: 5.4
- * Author: Kings Crest Global
+ * Author: Team KCG
  * Author URI: https://kingscrestglobal.com/contact/
  * License: GPLv3
  * License URI: https://www.gnu.org/licenses/gpl-3.0.html

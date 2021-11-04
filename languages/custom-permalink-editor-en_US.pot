@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-10-29 19:22+0600\n"
-"PO-Revision-Date: 2021-10-29 19:22+0600\n"
+"POT-Creation-Date: 2021-11-04 17:12+0600\n"
+"PO-Revision-Date: 2021-11-04 17:12+0600\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -14,8 +14,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-KeywordsList: __;_e;esc_html__\n"
 "X-Poedit-SearchPath-0: .\n"
-"X-Poedit-SearchPathExcluded-0: .git\n"
-"X-Poedit-SearchPathExcluded-1: assets\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: .git\n"
 
 #: admin/class-custom-permalink-editor-admin.php:53
 msgid "Thank you for installing Custom Permalink Editor"
@@ -57,24 +57,24 @@ msgid ""
 "the plugin."
 msgstr ""
 
-#: admin/class-custom-permalink-editor-admin.php:95
+#: admin/class-custom-permalink-editor-admin.php:163
 msgid "Custom Permalink Editor version"
 msgstr ""
 
-#: admin/class-custom-permalink-editor-admin.php:97
+#: admin/class-custom-permalink-editor-admin.php:165
 msgid "by"
 msgstr ""
 
-#: admin/class-custom-permalink-editor-admin.php:99
+#: admin/class-custom-permalink-editor-admin.php:167
 msgid "Team KCG"
 msgstr ""
 
-#: admin/class-custom-permalink-editor-admin.php:104
+#: admin/class-custom-permalink-editor-admin.php:172
 msgid "Kings Crest Global"
 msgstr ""
 
 #: includes/class-custom-permalink-editor-form.php:85
-#: includes/class-custom-permalink-editor-form.php:512
+#: includes/class-custom-permalink-editor-form.php:588
 #: includes/class-custom-permalink-editor.php:106
 msgid "Custom Permalink Editor"
 msgstr ""
@@ -91,6 +91,6 @@ msgstr ""
 msgid "New Permalink:"
 msgstr ""
 
-#: includes/class-custom-permalink-editor-form.php:559
+#: includes/class-custom-permalink-editor-form.php:637
 msgid "Leave blank to disable"
 msgstr ""
